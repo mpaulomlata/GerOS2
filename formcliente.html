@@ -1,0 +1,65 @@
+
+    
+<body>
+<div id="container,form">
+	
+    <h1> Novo Cliente </h1>
+	<form action="cliente.php" method="get">
+    	<p>
+            <!-- a -->
+    
+        <label for="tnome">Nome </label>
+    	<input type="text" id="tnome" name= "tnome" maxlength="60" required><br>
+        
+        <label for="nrg">RG </label>
+    	<input type="number" id="nrg"  ><br>
+        
+        
+        <label for="ncpf">CPF </label>
+    	<input type="number" id="ncpf"  ><br>
+        
+        <label for="ncnpj">CNPJ </label>
+    	<input type="number" id="ncnpj"  ><br>
+        
+        <label for="ttelcel">Telefone Celular </label>
+    	<input type="tel" id="ttelcel"  ><br>
+        
+        <label for="ttelfixo">Telefone Fixo </label>
+    	<input type="tel" id="ttelfixo"  required><br>
+        
+        
+        
+        <label for="eemail">Email </label>
+    	<input type="email" id="eemail" maxlength="30" required><br>   
+    	
+        
+        <label for="tend">Endereço </label>
+    	<input type="text" id="tend" maxlength="60" required><br>
+        
+        <label for="tcidade">Cidade </label>
+    	<input type="text" id="tcidade" maxlength="20" required><br>
+        
+        
+        
+      
+        <label for="tobs">Obsevações </label>
+        <textarea id="tobs" rows="5" cols="30"></textarea><br>
+       
+           <input type="hidden" name="haction" value="cadastrar"><br>        
+        <div id="command">
+        <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+    
+
+        <!--
+        <div id="command">
+    
+        <input type="submit" value="Enviar"> 
+      <input type="reset" value="Limpar">
+      -->
+        </p>
+        </div>
+    	</p>
+	</form>
+</div>  
+</body>
+</html>
